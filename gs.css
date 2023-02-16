@@ -1,0 +1,38 @@
+.speech {
+    color: black;
+     font-size: small;
+     font-family: 'Courier New', Courier, monospace;
+   }
+
+.direction {
+    color: black;
+    font-size: medium;
+    background-color: aquamarine;
+    
+     font-family: 'Courier New', Courier, monospace;
+   }
+   .direction:hover {
+     color: red;
+     background-color: antiquewhite;
+   }
+
+.name {
+    color: black;
+     font-size: medium;
+     font-family: 'Courier New', Courier, monospace;
+   }
+.QUIRKE {
+    color: red;
+     font-size: medium;
+     font-family: 'Courier New', Courier, monospace;
+}
+.DELANE {
+    color: yellow;
+     font-size: medium;
+     font-family: 'Courier New', Courier, monospace;
+
+}
+h6:hover {
+    border-bottom: blue solid;
+    font-size: 15px;
+}
