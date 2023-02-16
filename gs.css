@@ -17,7 +17,7 @@
    }
 
 .name {
-    color: black;
+    color: green;
      font-size: medium;
      font-family: 'Courier New', Courier, monospace;
    }
@@ -36,3 +36,40 @@ h6:hover {
     border-bottom: blue solid;
     font-size: 15px;
 }
+table, th, td {
+    padding:15px;
+    border: 1px solid black;
+    border-collapse:collapse;
+  }
+  
+  tr:nth-child(even) {
+    background-color: brown;
+  }
+  tr:nth-child(odd) {
+    background-color: red;
+  }
+  
+  navbar-horizontal {
+  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-origin: padding-box;
+    color: blue;
+    }
+    ul.navbar-horizontal li {
+    float:left; 
+    color:white;
+    background-color:red;
+   
+    }
+    .navbar-horizontal a {
+    display:block;
+    padding: 20px;
+    color: violet;
+    }
+
+    .navbar-horizontal a:hover {  
+    background-color:green;
+    color:yellow;
+    }
